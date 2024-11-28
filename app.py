@@ -22,6 +22,21 @@ image = Image.open("lyzr-logo.png")
 st.image(image, width=150)
 st.title("Financial Advisor Agent")
 st.markdown("### Welcome to the Financial Advisor Agent!")
+st.markdown("""Sample Input:
+
+Financial Situation:
+
+Monthly income: ₹1,00,000
+Monthly expenses: ₹60,000
+Existing savings: ₹5,00,000 (in a savings account)
+Outstanding debt: ₹2,00,000 (personal loan at 12% interest rate)
+Goals:
+
+Short-term goal: Save ₹1,50,000 in the next year for a vacation.
+Medium-term goal: Build a ₹10,00,000 emergency fund over the next 5 years.
+Long-term goal: Save ₹50,00,000 for retirement in 20 years.
+Risk Tolerance:
+Moderate.""")
 
 # Initialize the LyzrAgentAPI
 client = AgentAPI(x_api_key=LYZR_API_KEY)
