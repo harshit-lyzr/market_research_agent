@@ -30,6 +30,7 @@ Monthly income: ₹1,00,000
 Monthly expenses: ₹60,000
 Existing savings: ₹5,00,000 (in a savings account)
 Outstanding debt: ₹2,00,000 (personal loan at 12% interest rate)
+
 Goals:
 
 Short-term goal: Save ₹1,50,000 in the next year for a vacation.
